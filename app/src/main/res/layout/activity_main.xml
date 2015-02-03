@@ -17,7 +17,7 @@
             android:onClick="loginTapped"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:background="#1E88E5"
+            android:background="@color/primary"
             android:layout_centerInParent="true"
             materialdesign:animate="false"
             android:text="Login" />

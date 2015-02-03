@@ -17,7 +17,7 @@ import com.gc.materialdesign.views.ButtonRectangle;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
     ProgressWheel loadingIndicator;
     ButtonRectangle loginButton;
 
