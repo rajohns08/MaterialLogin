@@ -1,17 +1,9 @@
 package com.example.rajohns.materiallogin;
 
-import android.app.Activity;
-import android.app.ActivityOptions;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.transition.Slide;
-import android.transition.Transition;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.widget.Button;
 
 import com.gc.materialdesign.views.ButtonRectangle;
 import com.pnikosis.materialishprogress.ProgressWheel;
