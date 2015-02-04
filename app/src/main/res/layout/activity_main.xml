@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:background="@color/primary"
             android:layout_centerInParent="true"
-            materialdesign:animate="false"
+            materialdesign:animate="true"
             android:text="Login" />
 
         <com.pnikosis.materialishprogress.ProgressWheel

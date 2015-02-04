@@ -1,13 +1,13 @@
 package com.example.rajohns.materiallogin;
 
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.View;
 
 import com.gc.materialdesign.views.ButtonRectangle;
 import com.pnikosis.materialishprogress.ProgressWheel;
-
 
 public class MainActivity extends ActionBarActivity {
     ProgressWheel loadingIndicator;
@@ -32,7 +32,14 @@ public class MainActivity extends ActionBarActivity {
             showLoading(false);
         }
 
-        startActivity(new Intent(this, PostLogin.class));
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                startActivity(new Intent(MainActivity.this, PostLogin.class));
+            }
+        }, 4000);
+
     }
 
     @Override
